@@ -1,28 +1,181 @@
 /* Add a black background color to the top navigation */
+.Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+
+
 .navBar {
-    background-color:#F4F4F4;
-    overflow: hidden;
-    height: 7.25rem;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .navBar a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .navBar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .navBar a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
+  background-color: #F4F4F4;
+  overflow: hidden;
+  height: 3.25rem;
+  margin-bottom: 1rem;
+  width: 96%;
+
+  padding-bottom: 2rem;
+  color: #000000;
+
+
+
+
+}
+
+/* Style the links inside the navigation bar */
+.navBar a {
+
+  display: inline;
+  float: right;
+  color: #000000;
+  padding: 14px 5px 5px 0px;
+  margin-right: 4.7rem;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+/* Change the color of links on hover */
+.navBar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.header-circle {
+  z-index: 0;
+  height: 8.063rem;
+  width: 8.063rem;
+  position: absolute;
+  background-color: #DAE9FF;
+  left: 623px;
+  top: 100px;
+  border-radius: 50%;
+}
+
+.header-circle-2 {
+  z-index: 0;
+  height: 8.063rem;
+  width: 8.063rem;
+  position: absolute;
+  background-color: #FFF5DB;
+  ;
+  left: 1142px;
+  top: 546px;
+  border-radius: 50%;
+  border-radius: 0px 0px 100px 0px;
+}
+
+
+
+.header-group {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  width: 85.75rem;
+  height: 38rem;
+  text-align: center;
+
+
+}
+
+.presentation-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 42rem;
+  padding: 2rem;
+
+
+}
+
+.presentation-text>h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #000000;
+  line-height: 5rem;
+  margin-right: auto;
+  margin-left: 1.5rem;
+
+}
+
+.presentation-text>p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-right: auto;
+  margin-left: 1.5rem;
+  text-align: justify;
+
+}
+
+.photo {
+  width: 42rem;
+  height: 38rem;
+  z-index: 1;
+}
+
+.btn-header {
+  margin-top: 5rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+  letter-spacing: 0.065em;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2rem 3rem;
+  background: linear-gradient(98.35deg, #2603FB 18.95%, #3E33C1 96.51%);
+  border-radius: 6rem;
+  margin-right: auto;
+  margin-left: 1.5rem;
+
+}
+
+.icons-clients {
+  display: flex;
+  flex-direction: row;
+  height: 7.75rem;
+  align-items: center;
+  gap: 5rem;
+  width: 1199.55px;
+  height: 124px;
+
+
+}
+
+.icons-header {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 500px;
+  gap: 5rem;
+  justify-content: space-between;
+}
+
+.group-icons-header {
+  height: 2.5rem;
+  width: 9.374rem;
+}
+
+.icons-clients {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #757575;
+  margin-left: 1.5rem;
+}
+
+.icons-clients>p {
+  width: 21rem;
+}
+
+main>h2 {
+  margin-left: 1.5rem;
+}

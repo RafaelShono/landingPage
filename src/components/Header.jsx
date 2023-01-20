@@ -1,5 +1,12 @@
 
 import presentation from '../assets/header/presentation.png'
+import dotOrnament from '../assets/header/dotOrnament.png'
+import googleLogo from '../assets/header/googleLogo.png'
+import aibnbLogo from '../assets/header/aibnbLogo.png'
+import uberEatsLogo from '../assets/header/uberEatsLogo.png'
+import amazonLogo from '../assets/header/amazonLogo.png'
+
+
 import '../css/header.css';
 function Header() {
 
@@ -7,39 +14,50 @@ function Header() {
   return (
     <div className="Header">
 
-    <main>
-    <nav className="navBar">
-        <img className="logoStudio" src=''/>
-        <div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#news">What We Do</a>
-  <a href="#contact">Service</a>
-  <a href="#blog">Blog</a>
-  <a href="#contact">Contact</a>
-  <a href="#project">Project</a>
-</div>
-    </nav>
+      <main>
+        <nav className="navBar">
+          <img className="logoStudio" src='' />
+          <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#news">What We Do</a>
+            <a href="#contact">Service</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+            <a href="#project">Project</a>
+          </div>
+        </nav>
 
-    <div className="header-group">
-    <div className="presentationText">
-    <h2>A Digital Product Agency</h2>
-    <p>Leading digital agency with solid design and development expertise.
-     We build readymade websites, mobile applications, and elaborate online business services.</p>
-     <button>Contact Now</button>
+        <div className="header-group">
+          <div className="presentation-text">
+            <h1>A Digital Product Agency</h1>
+            <p>Leading digital agency with solid design and development expertise.
+              We build readymade websites, mobile applications, and elaborate online business services.</p>
+            <button className='btn-header'>Contact Now</button>
+            <img src={dotOrnament} />
 
-    </div>
-    <div className="photo">
-        <img src={presentation}/>
-
-<div className="icons-group">
-    <h2>Our Client</h2>
-</div>
-    </div>
-
-    </div>
+          </div>
+          <div className='header-circle'></div>
+          <div className='header-circle-2'></div>
+          <div className="photo">
+            <img src={presentation} />
 
 
-    </main>
+          </div>
+
+
+        </div>
+        <h2>Our Client</h2>
+        <div className="icons-clients">
+          <p>Several selected clients, who already believe in our service.</p>
+          <div className='icons-header'>
+            <img className='group-icons-header' src={googleLogo} />
+            <img className='group-icons-header' src={aibnbLogo} />
+            <img className='group-icons-header' src={uberEatsLogo} />
+            <img className='group-icons-header' src={amazonLogo} />
+          </div>
+        </div>
+
+      </main>
     </div>
   )
 }
