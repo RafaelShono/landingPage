@@ -1,29 +1,28 @@
 .info {
     display: flex;
     flex-direction: row;
-
-    margin-top: 200px;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 15rem;
+   justify-content: space-between;
 
 }
-
 .retangle-info {
     position: absolute;
     z-index: 0;
 
 }
-
 .info-description {
+
+  
     width: 24.75rem;
     height: 12.875rem;
     display: flex;
     flex-direction: column;
-    margin-left: 1.5rem;
-
-
-}
-
-.info-description>p {
-    z-index: 1;
+    font-family: 'Montserrat';
+    position: absolute;  
+    margin-left: 9rem;
+    margin-top: 20rem;
 
 }
 
@@ -34,31 +33,25 @@
     font-size: 2.5rem;
     line-height: 3.063rem;
     z-index: 1;
-
+    font-weight: bold;
+    margin-left: 2rem;
 }
 
-.group-div-1 {
-    position: absolute;
-    left: 10px;
-    bottom: 1100px;
-
-}
-
-.right-info>.bgRetangle {
-    position: relative;
+.info-description>p {
     z-index: 1;
-}
+    margin-left: 2rem;
 
+}
 .business {
 
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     position: absolute;
-    width: 308px;
-    height: 379px;
-    left: 607px;
-    top: 1400px;
+    width:19.25rem;
+    height: 23.688rem;
+    left: 700px;
+    top:67.5rem;
     align-items: center;
     text-align: center;
     background: #FFFFFF;
@@ -68,7 +61,10 @@
     z-index: 1;
 
 }
-
+.right-info{
+  margin-top: 10rem;
+  }
+  
 .business>h1 {
     margin-top: 2rem;
     font-family: 'Montserrat';
@@ -89,10 +85,7 @@
 
 .business>img {
     margin-top: 5rem;
-    width: 74px;
-    height: 74px;
-    left: 701px;
-    top: 1100px;
+
     background: #F1F7FF;
     border-radius: 20px;
     background: #F1F7FF;
@@ -116,10 +109,10 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    width: 308px;
-    height: 379px;
-    left: 607px;
-    top: 1870px;
+    width:19.25rem;
+    height: 23.688rem;
+    left: 700px;
+    top: 92.625rem;
 
     align-items: center;
     text-align: center;
@@ -133,10 +126,6 @@
 
 .web-dev>img {
     margin-top: 5rem;
-    width: 74px;
-    height: 74px;
-    left: 701px;
-    top: 1100px;
     background: #F1F7FF;
     border-radius: 20px;
 }
@@ -167,25 +156,16 @@
     color: #757575;
     width: 200px;
 }
-
-.group-div-2 {
-    position: absolute;
-    left: 100px;
-    bottom: 1100px;
-
-}
-
-
 .financial {
 
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     position: absolute;
-    width: 308px;
-    height: 379px;
-    left: 949px;
-    top: 1352px;
+    width:19.25rem;
+    height: 23.688rem;
+    left: 65rem;
+    top: 65rem;
     align-items: center;
     text-align: center;
     background: #FFFFFF;
@@ -215,10 +195,158 @@
 
 .financial>img {
     margin-top: 5rem;
-    width: 74px;
-    height: 74px;
-    left: 701px;
-    top: 1100px;
+   
+    background: #F1F7FF;
+    border-radius: 20px;
+    background: #F1F7FF;
+
+}
+
+.financial>p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #757575;
+}
+.market {
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width:19.25rem;
+    height: 23.688rem;
+    left: 65rem;
+    top: 90rem;
+
+    align-items: center;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    z-index: 1;
+
+}
+
+.market>img {
+    margin-top: 5rem;
+    background: #F1F7FF;
+    border-radius: 20px;
+}
+
+.market>h1 {
+    margin-top: 2rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    width: 250px;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.market>p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #757575;
+    width: 200px;
+}
+.elipse {
+    box-sizing: border-box;
+    z-index: 0;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 80rem;
+    top: 107rem;
+
+
+}
+
+
+/*
+
+
+}
+
+
+
+
+.right-info{
+
+
+}
+
+.right-info>.bgRetangle {
+  position: relative;
+    z-index: 1;
+}
+*/
+/*
+
+
+
+.group-div-2 {
+    position: absolute;
+    left: 100px;
+    bottom: 1100px;
+
+}
+
+
+.financial {
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 308px;
+    height: 379px;
+    left: 1149px;
+    top: 1392px;
+    align-items: center;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    z-index: 1;
+
+}
+
+.financial>h1 {
+    margin-top: 2rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    width: 100px;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+
+
+}
+
+.financial>img {
+    margin-top: 5rem;
+   
     background: #F1F7FF;
     border-radius: 20px;
     background: #F1F7FF;
@@ -258,10 +386,6 @@
 
 .market>img {
     margin-top: 5rem;
-    width: 74px;
-    height: 74px;
-    left: 701px;
-    top: 1100px;
     background: #F1F7FF;
     border-radius: 20px;
 }
@@ -304,3 +428,4 @@
 
 
 }
+*/
