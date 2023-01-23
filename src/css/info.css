@@ -16,7 +16,6 @@
 
 .info-description {
 
-
     width: 24.75rem;
     height: 12.875rem;
     display: flex;
@@ -44,6 +43,7 @@
     margin-left: 2rem;
 
 }
+
 
 .business {
 
@@ -200,7 +200,6 @@
 
 .financial>img {
     margin-top: 5rem;
-
     background: #F1F7FF;
     border-radius: 20px;
     background: #F1F7FF;
