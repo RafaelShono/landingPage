@@ -1,0 +1,143 @@
+.client {
+  margin-top: 5rem;
+  font-family: 'Montserrat';
+}
+
+.client-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6rem;
+  gap: 2rem;
+  font-family: 'Montserrat';
+}
+
+.client-text-center {
+  text-align: center;
+}
+
+.client-text-center-h1 {
+  font-size: 2.1rem;
+  font-weight: 600;
+}
+
+.client-text-center-p {
+  font-size: 1.1rem;
+  color: #757575;
+}
+
+.dot-group {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem
+}
+
+.elipse-client {
+  z-index: -2;
+  position: absolute;
+  Width: 120px;
+  Height: 120px;
+  margin-top: 18rem;
+  margin-left: 2rem;
+
+}
+
+.dot {
+  display: flex;
+
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.blue-dot {
+  background-color: blue;
+}
+
+.left-client {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  gap: 1rem;
+
+
+}
+
+.group-clients {
+  width: 300px;
+  position: relative;
+  margin-top: 3rem;
+
+}
+
+.client-1 {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  left: 12rem;
+  top: 5rem;
+
+}
+
+.client-2 {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  left: 13rem;
+  top: 12rem;
+
+}
+
+.client-3 {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  left: 18rem;
+  top: 16rem;
+}
+
+.client-4 {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  left: 26rem;
+  top: 15rem;
+
+}
+
+.client-5 {
+  position: absolute;
+  width: 6rem;
+  height: 5rem;
+  left: 27rem;
+  top: 1rem;
+
+}
+
+.client-6 {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+
+  left: 30rem;
+  top: 9rem;
+
+}
+
+.client-7 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 18rem;
+  top: -2rem;
+
+}
+
+.client-8 {
+  position: absolute;
+  width: 98px;
+  height: 98px;
+  left: 20rem;
+  top: 8rem;
+}

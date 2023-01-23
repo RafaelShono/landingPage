@@ -16,44 +16,48 @@ function Header() {
 
       <main>
         <nav className="navBar">
-          <img className="logoStudio" src='' />
+          <p className='name-header'><span>A+ </span>Studio</p>
           <div class="topnav">
             <a class="active" href="#home">Home</a>
             <a href="#news">What We Do</a>
             <a href="#contact">Service</a>
-            <a href="#blog">Blog</a>
-            <a href="#contact">Contact</a>
-            <a href="#project">Project</a>
+            <a href="#blog">Project</a>
+            <a href="#contact">Blog</a>
+            <a href="#project">Contact</a>
           </div>
         </nav>
+        <div className='both-side'>
+          <div className="header-group">
+            <div className="presentation-text">
+              <h1>A Digital Product Agency</h1>
+              <p>Leading digital agency with solid design and development expertise.
+                We build readymade websites, mobile applications, and elaborate online business services.</p>
+              <button className='btn-header'>Contact Now</button>
 
-        <div className="header-group">
-          <div className="presentation-text">
-            <h1>A Digital Product Agency</h1>
-            <p>Leading digital agency with solid design and development expertise.
-              We build readymade websites, mobile applications, and elaborate online business services.</p>
-            <button className='btn-header'>Contact Now</button>
-            <img src={dotOrnament} />
+              <img className='dot-ournament' src={dotOrnament} />
+            </div>
+
+
+            <div className='photo'>
+              <div className='header-circle'></div>
+              <img src={presentation} />
+              <div className='header-circle-2'></div>
+            </div>
+
+
 
           </div>
-          <div className='header-circle'></div>
-          <div className='header-circle-2'></div>
-          <div className="photo">
-            <img src={presentation} />
-
-
-          </div>
-
-
-        </div>
-        <h2>Our Client</h2>
-        <div className="icons-clients">
-          <p>Several selected clients, who already believe in our service.</p>
-          <div className='icons-header'>
-            <img className='group-icons-header' src={googleLogo} />
-            <img className='group-icons-header' src={aibnbLogo} />
-            <img className='group-icons-header' src={uberEatsLogo} />
-            <img className='group-icons-header' src={amazonLogo} />
+          <div className='clients-section'>
+            <h2 className='our-client'>Our Client</h2>
+            <div className="icons-clients">
+              <p>Several selected clients, who already believe in our service.</p>
+              <div className='icons-header'>
+                <img className='group-icons-header' src={googleLogo} />
+                <img className='group-icons-header' src={aibnbLogo} />
+                <img className='group-icons-header' src={uberEatsLogo} />
+                <img className='group-icons-header' src={amazonLogo} />
+              </div>
+            </div>
           </div>
         </div>
 

@@ -1,8 +1,10 @@
 .info {
     display: flex;
     flex-direction: row;
-
-    margin-top: 200px;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 15rem;
+    justify-content: space-between;
 
 }
 
@@ -13,17 +15,16 @@
 }
 
 .info-description {
+
+
     width: 24.75rem;
     height: 12.875rem;
     display: flex;
     flex-direction: column;
-    margin-left: 1.5rem;
-
-
-}
-
-.info-description>p {
-    z-index: 1;
+    font-family: 'Montserrat';
+    position: absolute;
+    margin-left: 9rem;
+    margin-top: 20rem;
 
 }
 
@@ -34,19 +35,14 @@
     font-size: 2.5rem;
     line-height: 3.063rem;
     z-index: 1;
-
+    font-weight: bold;
+    margin-left: 2rem;
 }
 
-.group-div-1 {
-    position: absolute;
-    left: 10px;
-    bottom: 1100px;
-
-}
-
-.right-info>.bgRetangle {
-    position: relative;
+.info-description>p {
     z-index: 1;
+    margin-left: 2rem;
+
 }
 
 .business {
@@ -55,10 +51,10 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    width: 308px;
-    height: 379px;
-    left: 607px;
-    top: 1400px;
+    width: 19.25rem;
+    height: 23.688rem;
+    left: 700px;
+    top: 67.5rem;
     align-items: center;
     text-align: center;
     background: #FFFFFF;
@@ -67,6 +63,10 @@
     border-radius: 40px;
     z-index: 1;
 
+}
+
+.right-info {
+    margin-top: 10rem;
 }
 
 .business>h1 {
@@ -89,10 +89,7 @@
 
 .business>img {
     margin-top: 5rem;
-    width: 74px;
-    height: 74px;
-    left: 701px;
-    top: 1100px;
+
     background: #F1F7FF;
     border-radius: 20px;
     background: #F1F7FF;
@@ -116,10 +113,10 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    width: 308px;
-    height: 379px;
-    left: 607px;
-    top: 1870px;
+    width: 19.25rem;
+    height: 23.688rem;
+    left: 700px;
+    top: 92.625rem;
 
     align-items: center;
     text-align: center;
@@ -133,10 +130,6 @@
 
 .web-dev>img {
     margin-top: 5rem;
-    width: 74px;
-    height: 74px;
-    left: 701px;
-    top: 1100px;
     background: #F1F7FF;
     border-radius: 20px;
 }
@@ -168,24 +161,16 @@
     width: 200px;
 }
 
-.group-div-2 {
-    position: absolute;
-    left: 100px;
-    bottom: 1100px;
-
-}
-
-
 .financial {
 
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     position: absolute;
-    width: 308px;
-    height: 379px;
-    left: 949px;
-    top: 1352px;
+    width: 19.25rem;
+    height: 23.688rem;
+    left: 65rem;
+    top: 65rem;
     align-items: center;
     text-align: center;
     background: #FFFFFF;
@@ -215,10 +200,7 @@
 
 .financial>img {
     margin-top: 5rem;
-    width: 74px;
-    height: 74px;
-    left: 701px;
-    top: 1100px;
+
     background: #F1F7FF;
     border-radius: 20px;
     background: #F1F7FF;
@@ -241,10 +223,10 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    width: 308px;
-    height: 379px;
-    left: 949px;
-    top: 1791px;
+    width: 19.25rem;
+    height: 23.688rem;
+    left: 65rem;
+    top: 90rem;
 
     align-items: center;
     text-align: center;
@@ -258,10 +240,6 @@
 
 .market>img {
     margin-top: 5rem;
-    width: 74px;
-    height: 74px;
-    left: 701px;
-    top: 1100px;
     background: #F1F7FF;
     border-radius: 20px;
 }
@@ -299,8 +277,8 @@
     position: absolute;
     width: 120px;
     height: 120px;
-    left: 1177px;
-    top: 2093px;
+    left: 80rem;
+    top: 107rem;
 
 
 }
