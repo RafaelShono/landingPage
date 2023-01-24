@@ -1,0 +1,66 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10rem;
+    background-color: #F1F2F2;
+    width: 100vw;
+    list-style-type: none;
+    gap: 2rem;
+    font-family: 'Montserrat';
+
+}
+
+
+.logo-text {
+    width: 30vw;
+    margin-left: 10rem;
+    padding-right: 10rem;
+
+    font-size: 14px;
+}
+
+.footer-we-do {
+    align-self: center;
+    text-align: center;
+    font-size: 14px;
+    color: #565656;
+
+}
+
+.aPlus-footer {
+    font-weight: 600;
+}
+
+.list>li {
+    list-style-type: none;
+    margin-top: 1rem;
+    font-size: 14px;
+}
+
+.footer-company {
+    align-self: center;
+    text-align: center;
+    margin-top: -2rem;
+    font-size: 14px;
+    color: #565656;
+}
+
+.footer-support {
+    align-self: center;
+    text-align: center;
+    margin-top: -2rem;
+    font-size: 14px;
+    color: #565656;
+}
+
+.footer-contact {
+    align-self: center;
+    text-align: center;
+    margin-top: -4rem;
+    font-size: 14px;
+    color: #565656;
+}
+
+.list>h4 {
+    margin-left: 2rem;
+}

@@ -43,7 +43,6 @@
 
 .dot {
   display: flex;
-
   height: 10px;
   width: 10px;
   background-color: #bbb;
@@ -60,8 +59,6 @@
   flex-direction: row;
   width: 50vw;
   gap: 1rem;
-
-
 }
 
 .group-clients {
@@ -119,7 +116,6 @@
   position: absolute;
   width: 68px;
   height: 68px;
-
   left: 30rem;
   top: 9rem;
 
@@ -141,74 +137,87 @@
   left: 20rem;
   top: 8rem;
 }
-.newsletter{
+
+.newsletter {
   display: flex;
   flex-direction: row;
-  background-color: #F4F9FF;;
-  width: 70.813rem;
- height:18.25rem ;
+  background-color: #F4F9FF;
+  width: 80.813rem;
+  height: 18.25rem;
   padding: 2rem;
   align-items: center;
   margin-left: 10rem;
   position: relative;
-
-
+  margin-top: 2rem;
+  border-radius: 5rem;
 }
-.left-side-newletter>h1{
+
+.left-side-newletter>h1 {
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 2.1rem;
   line-height: 2.1rem;
 }
-.right-side-newsletter>img{
+
+.left-side-newletter>p {
+  position: absolute;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #757575;
+}
+
+.right-side-newsletter>img {
   display: flex;
-position: absolute;
-top:-0rem;
+  position: absolute;
+  top: 2rem;
   margin-left: 13rem;
 }
-.input-newslatter{
 
-}
-.element-box{
-  display:flex;
-  flex-direction:row;
+.input-newslatter {}
+
+.element-box {
+  display: flex;
+  flex-direction: row;
   position: absolute;
-  width: 20rem;
- height: 4rem;
- border-radius: 10rem;
- margin-left: 10rem;
- margin-bottom:2rem;
- -webkit-box-shadow: 1px 5px 17px -4px rgba(0,0,0,0.75);
- -moz-box-shadow: 1px 5px 17px -4px rgba(0,0,0,0.75);
- box-shadow: 1px 5px 17px -4px rgba(0,0,0,0.75);
- background-color: rgb(255, 255, 255);
+  width: 25rem;
+  height: 4rem;
+  border-radius: 10rem;
+  margin-left: 10rem;
+  -webkit-box-shadow: 1px 5px 17px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 5px 17px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 5px 17px -4px rgba(0, 0, 0, 0.75);
+  background-color: rgb(255, 255, 255);
 
 }
+
 input {
-  /* Tell the input to use all the available space */
-  flex-grow:2;
-  /* And hide the input's outline, so the form looks like the outline */
-  border:none;
-  margin: 10px  10px 10px 6px;
-
-  background-color:#ffffff;
+  flex-grow: 2;
+  border: none;
+  margin: 10px 10px 10px 6px;
+  background-color: #ffffff;
 }
+
 input:focus {
   outline: none;
 }
-.element-box:focus-within { 
-  outline: 1px solid blue 
+
+.element-box:focus-within {
+  outline: 1px solid blue
 }
 
 button {
-  /* Just a little styling to make it pretty */
-
-  background:blue;
-  color:white;
+  display: flex;
+  align-items: center;
+  background: blue;
+  color: white;
   border-radius: 10rem;
   height: 3rem;
   margin-top: 0.5rem;
   margin-right: 0.5rem;
   background-color: #2639ED;
+  padding: 20px 40px;
 }

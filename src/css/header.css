@@ -11,6 +11,12 @@
 
 }
 
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem
+}
+
 .name-header>span {
   font-weight: 600;
 }

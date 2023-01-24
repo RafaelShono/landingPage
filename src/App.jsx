@@ -4,7 +4,8 @@ import Info from './components/Info'
 import Service from './components/Service'
 import './App.css'
 import Client from './components/Client'
-
+import Footer from './components/Footer'
+import 'react-multi-carousel/lib/styles.css';
 function App() {
 
   //      <Info />
@@ -15,6 +16,8 @@ function App() {
       <Info className='header' />
       < Service />
       <Client />
+      <Footer />
+
     </div>
   )
 }

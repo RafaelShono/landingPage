@@ -1,5 +1,5 @@
 import React from "react"
-import { Input } from 'react-nice-inputs'
+
 import '../css/client.css'
 import mainClient from '../assets/clients/mainClient.png'
 import client1 from '../assets/clients/client1.png'
@@ -12,6 +12,7 @@ import client7 from '../assets/clients/client7.png'
 import client8 from '../assets/clients/client8.png'
 import elipse from '../assets/clients/elipse-client.png'
 import triangleClient from '../assets/clients/client-retangle.png'
+import Carousel from './Carousel.jsx'
 const Client = (props) => {
 
   function showText() {
@@ -30,6 +31,7 @@ const Client = (props) => {
         <div className="left-client">
           <img src={mainClient} />
           <img className="elipse-client" src={elipse} />
+
           <div className="left-client-ajust">
             <h3>Matthew Paul</h3>
             <p>Perfect, very good job! Thank you for the amazing design and work.
@@ -52,7 +54,7 @@ const Client = (props) => {
           <img className="client-7" src={client7} />
           <img className="client-8" src={client8} />
         </div>
-     
+
       </div>
       <div className="newsletter">
         <div className="left-side-newletter">
@@ -60,12 +62,12 @@ const Client = (props) => {
           <p>I will update good news and promotion service not spam</p>
         </div>
         <div className="right-side-newsletter">
-          <img src={triangleClient}/>
+          <img src={triangleClient} />
           <div className="element-box">
-          <input placeholder="Enter your email address.." type="text" className="rinput-newslette"/>
-        <button>Contact Now</button>
+            <input placeholder="Enter your email address.." type="text" className="rinput-newslette" />
+            <button>Contact Now</button>
           </div>
-     
+
         </div>
       </div>
     </div>
