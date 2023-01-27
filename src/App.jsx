@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import 'react-multi-carousel/lib/styles.css';
 import Zoom from 'react-reveal/Zoom';
 function App() {
+  //https://tailwindui.com/
 
   //      <Info />
   return (
